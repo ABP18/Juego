@@ -1,0 +1,33 @@
+body {
+    padding-left: 30%;
+    }
+      
+    
+      table {
+        border-collapse: separate;
+        border-spacing: 2.5px;
+        position: absolute;
+        border: none; 
+      }
+    
+        /* Tabla 1 */
+      th, td {
+        background-color: rgba(0, 108, 250, 0.87);
+        color: white;
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+      /* Color de fondo tabla 2 */
+      #tabla2 th, #tabla2 td {
+        background-color: rgb(1, 98, 224);
+      }
+    
+      
+      #puntos {
+        margin-top: 10px;
+        font-size: x-large;
+      }
